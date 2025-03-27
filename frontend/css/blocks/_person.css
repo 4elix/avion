@@ -1,0 +1,60 @@
+.person {
+    padding: 60px 0;
+    background-color: var(--light-grey);
+}
+
+.person__content {
+    padding: 68px 40px 54px;
+    background-color: var(--white);
+}
+
+.person__buttons {
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 22px;
+}
+
+.person__btn {
+    background-color: var(--light-grey);
+    color: var(--dark-primary);
+    padding: 8px 30px;
+}
+
+.person__btn.active {
+    background-color: var(--dark-primary);
+    color: white;
+}
+
+.person__form {
+    display: none;
+}
+
+.person__form.active {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.person__form-input {
+    width: 30%;
+    padding: 12px 24px;
+    margin: 10px 0;
+    border: none;
+    background-color: var(--light-grey);
+}
+
+.person__form-input::placeholder {
+    color: rgba(42, 37, 75, 0.3);;
+}
+
+.person__form-btn {
+    padding: 10px 30px;
+    transition: var(--main-trs);
+}
+
+.person__form-btn:hover {
+    background-color: #382e75;
+}
