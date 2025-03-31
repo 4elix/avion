@@ -9,8 +9,7 @@
 }
 
 .benefits__subtitle {
-    margin: 0;
-    margin-bottom: 8px;
+    margin: 0 0 8px 0;
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 20px;
@@ -24,4 +23,9 @@
     font-size: 16px;
     line-height: 150%;
     color: var(--dark-primary);
+}
+
+.benefits--about .benefits__item {
+    padding: 84px 48px 48px;
+    background-color: var(--light-grey);
 }

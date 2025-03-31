@@ -1,0 +1,43 @@
+.brand-info {
+    padding: 60px 0;
+}
+
+.brand-info__content {
+    gap: 16px;
+    display: flex;
+}
+
+.brand-info__text,
+.brand-info__image {
+    width: calc((100% - 16px) / 2);
+}
+
+.brand-info__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 64px 75px 54px 64px;
+    color: var(--white);
+    background-color: var(--dark-primary);
+}
+
+.brand-info__title {
+    color: var(--white);
+}
+
+.brand-info__descr {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.brand-info__btn {
+    margin-top: auto;
+}
+
+.brand-info__pic {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
